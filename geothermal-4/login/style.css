@@ -1,0 +1,263 @@
+/* default styles */
+
+	body { 
+		padding: 5px 0 0 0;
+		margin: 0; 
+		font: .7em Tahoma, Arial, sans-serif;
+		line-height: 1.7em;
+		background: #fff url(images/bg.gif) repeat-x;
+		color: #454545; 
+	}
+	a { 
+		color: #2F637A; 
+		background: inherit;
+	}
+	a:hover {
+		color: #808080;
+		background: inherit; 
+	}
+	p {	
+		margin: 0 0 10px 0;
+	}
+
+	h1 {
+		font: bold 2.2em Arial, Sans-Serif;
+		padding: 8px 0 0 0;
+		margin: 0;
+		letter-spacing: -1px;
+	}
+	h2 { 
+		margin: 0;
+		padding: 0; 
+		font: bold 1.8em Arial, Sans-Serif;
+		letter-spacing: -1px;
+	}
+
+	h1 a, h2 a {
+		color: #000;
+		background: inherit;
+		text-decoration: none;
+	}
+	ul {
+		margin: 0;
+		padding : 0;
+		list-style : none;
+	}
+	img { 
+		border: 0;
+	}
+
+	.p1{
+		font :  Arial, Sans-Serif;
+		font-size : 18px;
+		margin: 0 0 10px 0;
+		padding : 5px;
+		color: #ffffff;
+	}
+
+	.p3{
+		font-size : 28px;
+		margin-top : 10px;
+		padding : 0 10px 0 10px;
+		width : 1120px;
+		margin-bottom: 30px;
+	}
+
+	.p4{
+		font-size : 17px;
+		margin-top : 10px;
+		padding : 0px 20px 10px 20px;
+		width : 1100px;
+		margin-bottom: 30px;
+	}
+	.p5{
+		font-size : 18px;
+		margin-left : 740px;
+		padding : 0px 20px 10px 20px;
+	}
+
+	.p6 
+	{
+	border:1px solid #fcdceb;
+	background : #fcdceb;
+	font-size : 18px;
+	color : black;
+	height : 20px;
+	font : Arial;
+	padding : 10px 20px 10px 20px;
+	}
+
+	.form-login{
+	 
+		padding: 2px 3px;
+		width: 200px;
+		border: 1px solid #0d5fac;
+		border-spacing: 1px;
+		font-size: 16px;
+		color: #0d5fac;
+	 
+	}
+
+	.header
+		{
+			margin-bottom: 4em;
+			padding-left: 2em;
+			border-left: 6px solid #d31e0b;
+		}
+	.container{
+			overflow: hidden;
+			margin: 0em auto;
+			width: 1200px;
+	}
+	
+	/*logo*/
+	#logo
+	{
+	}
+	
+	#logo h1
+	{
+	}
+	
+	#logo h1 a
+	{
+		color: #d31e0b;
+	}
+	
+	#logo span
+	{
+		letter-spacing: 0.10em;
+		text-transform: uppercase;
+		font-size: 0.90em;
+		color: #000;
+	}
+	
+	#logo a
+	{
+		text-decoration: none;
+		color: #000;
+	}
+	
+	/*Content*/
+	#content{
+		width: 95%;
+		margin: 0 auto;
+		margin-top: 2em;
+		
+	}
+	
+	/*MENU*/
+	#menu-wrapper
+	{
+		overflow: hidden;
+		width: 95%;
+		height: 50px;
+		background: #d31e0b;
+		border-bottom: px solid #9e1506;
+		margin: 0 auto;
+	}
+	
+	#menu
+	{
+	}
+	
+	#menu ul
+	{
+		display: inline-block;
+		margin: 0 auto;
+	}
+	
+	#menu li
+	{
+		display: block;
+		float: left;
+		text-align: center;
+	}
+	
+	#menu li a, #menu li span
+	{
+		overflow: hidden;
+		padding: 0em 2em 1em 2em;
+		line-height: 50px;
+		letter-spacing: 0.10em;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 0.90em;
+		font-weight: 300;
+		color: #FFF;
+	}
+	
+	#menu li:hover a, #menu li.active a, #menu li.active span
+	{
+	}
+	
+	#menu .current_page_item a
+	{
+	}
+	
+	#menu .icon
+	{
+	}
+	
+	#cssmenu,
+	#cssmenu ul,
+	#cssmenu ul li,
+	#cssmenu ul li a {
+	  padding: 0;
+	  margin: 0;
+	  line-height: 1;
+	  font-family: 'Capriola', sans-serif;
+	  background-color:gray;
+	}
+	#cssmenu:before,
+	#cssmenu:after,
+	#cssmenu > ul:before,
+	#cssmenu > ul:after {
+	  content: '';
+	  display: table;
+	}
+	#cssmenu:after,
+	#cssmenu > ul:after {
+	  clear: both;
+	}
+	#cssmenu {
+	  zoom: 1;
+	  height: px;
+	  background: url(images/bottom-bg.png) repeat-x center bottom;
+	  border-radius: 2px;
+	}
+	#cssmenu ul {
+	  background: url(images/nav-bg.png) repeat-x 0px 4px;
+	  height: 69px;
+	}
+	#cssmenu ul li {
+	  float: left;
+	  list-style: none;
+	}
+	#cssmenu ul li a {
+	  display: block;
+	  height: 37px;
+	  padding: 22px 30px 0;
+	  margin: 4px 2px 0;
+	  border-radius: 2px 2px 0 0;
+	  text-decoration: none;
+	  font-size: 15px;
+	  color: white;
+	  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+	  font-weight: 400;
+	  opacity: .9;
+	}
+	#cssmenu ul li:first-child a {
+	  margin: 4px 2px 0 0;
+	}
+	#cssmenu ul li a:hover,
+	#cssmenu ul li.active a {
+	  background: url(images/color.png) center bottom;
+	  display: block;
+	  height: 37px;
+	  margin-top: 0px;
+	  padding-top: 26px;
+	  color: #600000;
+	  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.35);
+	  opacity: 1;
+	}
